@@ -1,0 +1,19 @@
+html,
+body {
+  background-color: #121010;
+  color: #fff;
+  font-family: "Source Code Pro";
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+p,
+a {
+  padding: 0px;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+a {
+  color: #39ff14;
+}

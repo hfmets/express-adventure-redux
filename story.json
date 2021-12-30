@@ -1,0 +1,75 @@
+{
+  "home": {
+    "script": "You awake lying in a puddle with a vast array of trees surrounding your every direction. You have no memory of how you got here or why you may be here. While it is still daylight, the shrill sounds of what seems to be the jungle alarm you. In front of you, there seems to be a somewhat worn path.",
+    "choices": [
+      {
+        "choice": "Go forward along the path",
+        "path": "forward1"
+      }
+    ]
+  },
+  "forward1": {
+    "script": "You find a broken down jeep. The engine is smoking and it seems like someone may have just been here but nobody else is around. There are some supplies on the ground: a machete, some water, and a deck of cards. Because this is my game, you may choose one item.",
+    "choices": [
+      {
+        "choice": "Take the machete and continue forward",
+        "path": "forward2/machete"
+      },
+      {
+        "choice": "Drink the water and continue forward",
+        "path": "forward2/water"
+      },
+      {
+        "choice": "Take the deck of cards and continue forward",
+        "path": "forward2/cards"
+      }
+    ]
+  },
+  "forward2": {
+    "script": "After walking for a while, you come upon a giant treehouse full of monkeys. They grab you and take you to their monkey king. The king, who surprisingly speaks English, wants to know why you are here. What do you do?",
+    "choices": {
+      "cards": [
+        {
+          "choice": "Show him the deck of cards and ask him to play",
+          "path": "winner/monkey"
+        },
+        {
+          "choice": "Tell him you don't know how or why you got here",
+          "path": "loser/monkey"
+        },
+        {
+          "choice": "Pull out the machete you stole from the last page when you were allowed one item and try to kill the monkey king",
+          "path": "ultimateloser/monkey"
+        }
+      ],
+      "machete": [
+        {
+          "choice": "Offer your machete to the monkey king in return for housing in his kingdom",
+          "path": "winner/monkey"
+        },
+        {
+          "choice": "Jump off the treehouse and hope for the best",
+          "path": "loser/monkey"
+        },
+        {
+          "choice": "Stab the monkey king with your machete and try to take his throne",
+          "path": "ultimateloser/monkey"
+        }
+      ],
+      "water": [
+        {
+          "choice": "Offer to join the monkey army since you aren't dehydrated",
+          "path": "winner/monkey"
+        },
+        {
+          "choice": "Insult the monkey king with your bad stand up routine",
+          "path": "loser/monkey"
+        },
+        {
+          "choice": "Try to prove that you are a monkey and fall off the treehouse to your death",
+          "path": "ultimateloser/monkey"
+        }
+      ]
+    }
+  }
+}
