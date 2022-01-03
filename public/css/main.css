@@ -39,6 +39,10 @@ a {
   margin-bottom: 10px;
 }
 
+.error {
+  display: inline-block;
+}
+
 ::placeholder {
   color: #39ff14;
   font-family: "Source Code Pro";
