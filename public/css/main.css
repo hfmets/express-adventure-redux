@@ -17,3 +17,29 @@ a {
 a {
   color: #39ff14;
 }
+
+#submit {
+  border: 1px solid #39ff14;
+  background-color: #121010;
+  color: #39ff14;
+  padding: 5px 10px;
+  font-family: "Source Code Pro";
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.text-input,
+.error {
+  background-color: transparent;
+  border: 1px solid #39ff14;
+  color: #39ff14;
+  font-family: "Source Code Pro";
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+::placeholder {
+  color: #39ff14;
+  font-family: "Source Code Pro";
+}
